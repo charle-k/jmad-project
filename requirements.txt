@@ -1,0 +1,4 @@
+Django==1.8.9
+musicbrainzngs==0.5
+selenium==2.51.1
+djangorestframework==3.1.2
