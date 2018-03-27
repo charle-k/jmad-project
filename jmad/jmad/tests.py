@@ -18,7 +18,6 @@ class StudentTestCase(LiveServerTestCase):
         # examples of solos so he can improve his own
         # improvisation. He visits the home page of JMAD.
         home_page = self.browser.get(self.live_server_url + '/')
-        
         # He knows he's in the right place because he can see
         # the name of the site in the heading.
         brand_element = self.browser.find_element_by_css_selector('.navbar-brand')
